@@ -33,12 +33,12 @@
            <a-asset-item id="focSentinel-mtl" src="models/focSentinel.mtl"></a-asset-item>
            <a-mixin id="propertiesFS" scale=".1 .1 .1" position ="0 0 0" rotation="0 0 0"></a-mixin>
 		   <!--04 3D model moviments sòl-->
-		   <a-asset-item id="saldes-obj" src="models/SALDES_esllavissada_09.obj"></a-asset-item>
-           <a-asset-item id="saldes-mtl" src="models/SALDES_esllavissada_09.mtl"></a-asset-item>
+		   <a-asset-item id="saldes-obj" src="models/SALDES_esllavissada_02.obj"></a-asset-item>
+           <a-asset-item id="saldes-mtl" src="models/SALDES_esllavissada_02.mtl"></a-asset-item>
            <a-mixin id="propertiesSal" scale=".1 .1 .1" position ="0 0 0" rotation="0 0 0"></a-mixin>
 		   <!--05 3D model evolucio multitemporal-->
-		   <a-asset-item id="deltaMulti-obj" src="models/deltaMulti_01.obj"></a-asset-item>
-           <a-asset-item id="deltaMulti-mtl" src="models/deltaMulti_01.mtl"></a-asset-item>
+		   <a-asset-item id="deltaMulti-obj" src="models/deltaMulti_02.obj"></a-asset-item>
+           <a-asset-item id="deltaMulti-mtl" src="models/deltaMulti_02.mtl"></a-asset-item>
            <a-mixin id="propertiesMul" scale=".1 .1 .1" position ="0 0 0" rotation="0 0 0"></a-mixin> 
            <!--06 3D model humitat del sòl-->
 		   <a-asset-item id="humitat-obj" src="models/humitat_01.obj"></a-asset-item>
@@ -56,14 +56,13 @@
 		   <a-asset-item id="illaC-obj" src="models/illaC_01.obj"></a-asset-item>
            <a-asset-item id="illaC-mtl" src="models/illaC_01.mtl"></a-asset-item>
            <a-mixin id="propertiesIllaC" scale=".4 .4 .4" position ="0 0 0" rotation="0 0 0"></a-mixin>
-		    <!--10 3D model barcelona_3d
+		    <!--10 3D model barcelona_3d-->
 		   <a-asset-item id="barcelona-obj" src="models/barcelona_3DPuzzle_02.obj"></a-asset-item>
            <a-asset-item id="barcelona-mtl" src="models/barcelona_3DPuzzle_02.mtl"></a-asset-item>
            <a-mixin id="propertiesCity_3D" scale=".25 .25 .25" position ="0 -0.5 0" rotation="0 0 0"></a-mixin> 
-		   -->
 		   <!--11 3D model futur Agrari-->
-		   <a-asset-item id="futurAgra-obj" src="models/futurAgra_01.obj"></a-asset-item>
-           <a-asset-item id="futurAgra-mtl" src="models/futurAgra_01.mtl"></a-asset-item>
+		   <a-asset-item id="futurAgra-obj" src="models/futurAgra_03.obj"></a-asset-item>
+           <a-asset-item id="futurAgra-mtl" src="models/futurAgra_03.mtl"></a-asset-item>
            <a-mixin id="propertiesAgra" scale=".4 .4 .4" position ="0 0 0" rotation="0 0 0"></a-mixin>
 		   <!--12 3D model Variables biofisiques-->
 		   <a-asset-item id="variablesBio-obj" src="models/variablesBio_02.obj"></a-asset-item>
@@ -124,12 +123,11 @@
 		<!--09 3D model illa de calor-->
 		<a-marker type="pattern" preset="custom" url="data/pattern-markerIllaCa.patt">
   		   <a-entity mixin="propertiesIllaC" obj-model="obj: #illaC-obj; mtl: #illaC-mtl "></a-entity>  
-		</a-marker>	
-		
-		<!--10 3D model barcelona_3d
+		</a-marker>	 
+		<!--10 3D model barcelona_3d-->
 		<a-marker type="pattern" preset="custom" url="data/pattern-markerCity_3D.patt">
   		   <a-entity mixin="propertiesCity_3D" obj-model="obj: #barcelona-obj; mtl: #barcelona-mtl "></a-entity> 
-		</a-marker>-->
+		</a-marker>
 		<!--11 3D model futur Agrari-->
 		<a-marker type="pattern" preset="custom" url="data/pattern-markerFuAgra.patt">
   		   <a-entity mixin="propertiesAgra" obj-model="obj: #futurAgra-obj; mtl: #futurAgra-mtl "></a-entity> 
