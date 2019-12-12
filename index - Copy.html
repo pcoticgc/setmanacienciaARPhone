@@ -24,8 +24,15 @@
      <!--position ="x z y"-->
     <a-scene ar>
         <a-assets>
-		   <!-- 01 Video ploma de Ebre -->		   
-		   <a-video id="plomaEbre" source src="video/plomaDeEbre.mp4" type="video/mp4" preload="auto" ></a-video>
+		   <!-- 01 Video ploma de Ebre -->
+		   <a-video
+		   id="plomaEbre"
+		   <source src="video/plomaDeEbre.mp4" type="video/mp4">
+		   <source src="video/plomaDeEbre.webm" type="video/webm">
+           <source src="video/plomaDeEbre.mov" type="video/mov">
+		   <source src="video/plomaDeEbre.ogv" type="video/ogv">
+		   preload="auto" >
+		   </a-video>
 		   <!--02 3D model decaiment-->
            <a-asset-item id="sentinelDeca-obj" src="models/sentinelDeca.obj"></a-asset-item>
            <a-asset-item id="sentinelDeca-mtl" src="models/sentinelDeca.mtl"></a-asset-item>
@@ -74,8 +81,21 @@
            <a-asset-item id="verdUrba-obj" src="models/verdUrba_01.obj"></a-asset-item>
            <a-asset-item id="verdUrba-mtl" src="models/verdUrba_01.mtl"></a-asset-item>
            <a-mixin id="propertiesVerdU" scale=".2 .2 .2" position ="0 -0.5 0" rotation="0 0 0"></a-mixin>
-		   <!--14 Video comparador litoral-->	   
-		   <a-video id="comparadorLitoral" source src="video/ecosistemaLitoral.mp4" type="video/mp4" preload="auto" ></a-video>
+		   <!--14 Video comparador litoral-->
+		   <a-video
+		   id="comparadorLitoral"
+		   <source src="video/ecosistemaLitoral.mp4" type="video/mp4">
+		   <source src="video/ecosistemaLitoral.webm" type="video/webm">
+           <source src="video/ecosistemaLitoral.mov" type="video/mov">
+		   <source src="video/ecosistemaLitoral.ogv" type="video/ogv">
+		   preload="auto" >
+		   </a-video>
+
+		<!--
+         <script>
+           document.querySelector();
+        </script>
+        -->
         </a-assets>
         <!--01 Video ploma de Ebre-->
         <a-marker type="pattern" preset="custom" url="data/pattern-markerPlomaEbre.patt">
